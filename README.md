@@ -5,6 +5,6 @@ Please, check line
 ```powershell
 Get-ScheduledTask -TaskPath $taskpath -CimSession $comp.name | Unregister-ScheduledTask -Confirm:$false
 ```
-It will remove all tasks in seted folder on destination computers. If you do not need it - delete or comment that line. 
+It will remove all tasks in seted folder on destination computers. If you do not need this - delete or comment that line. 
 
 [My blog](https://www.mytechnote.ru/)
